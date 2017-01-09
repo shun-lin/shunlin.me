@@ -1,0 +1,14 @@
+.tabs .indicator {
+    /* orange darken-1 */
+    background-color: #fb8c00 !important;
+}
+
+.tabs .tab a {
+    /* orange darken-1 */
+    color: #fb8c00 !important;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  /* orange darken-3 */
+  color: #ef6c00 !important;
+}
