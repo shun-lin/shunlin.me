@@ -202,82 +202,48 @@
   </div>
   <!--projectfusion contents-->
   <section id="projectfusion-contents" class="overview">
-      <div class="container">
+      <div class="container z-depth-1">
         <div class="row">
-          <div class="col s12">
-              <ul class="tabs z-depth-1">
-                  <li class="tab col s6"><a class="active" href="#software-experiences">Software Development</a></li>
-                  <li class="tab col s6"><a href="#project-experiences">Project Management</a></li>
-              </ul>
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                <label for="first_name">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Last Name</label>
+              </div>
+            </div>
+              <div class="row">
+                <div class="input-field col s12">
+                  <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                  <label for="disabled">Disabled</label>
+                </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col s12">
+                    This is an inline input field:
+                    <div class="input-field inline">
+                      <input id="email" type="email" class="validate">
+                      <label for="email" data-error="wrong" data-success="right">Email</label>
+                    </div>
+                  </div>
+                </div>
+              </form>
           </div>
-          <!--software experiences tab contents-->
-          <div id="software-experiences" class="col s12">
-              <br></br>
-              <ul class="collapsible popout" data-collapsible="accordion">
-                  <li>
-                    <div class="collapsible-header active"><i class="material-icons">laptop_mac</i><b>Vice President of Technology</b> | DiversaTech<div class="right"> December 2016 - Present</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Developed a new professional and modern website for DiversaTech from scratch using HTML, CSS, and JavaScript <br />
-                          <i class="material-icons">done</i> Modernized the website using Materialize CSS (following google's material design) and Typed.js <br />
-                          <i class="material-icons">done</i> Advised senior consulting teams on technological related aspects of consulting projects, including software recommendations, feasibility assessments, and coding practices</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons">laptop_mac</i><b>Lead Organizer</b> | Berkeley Go Club<div class="right"> August 2016 - Present</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Created and regularly updated the club’s website using HTML, CSS, and JavaScript <br />
-                          <i class="material-icons">done</i> Taught beginners the fundamentals of Go and mathematical and computational Go Game Theory <br />
-                          <i class="material-icons">done</i> Led a team to compete in American Collegiate Go League and World Student Go Championships</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons">laptop_mac</i><b>Academic Intern</b> | UC Berkeley<div class="right"> September 2016 - Present</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Provide guidance to students learning Python in CS61A/B at weekly office hour, lab, sessions, and Piazza (online forum).</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons">laptop_mac</i><b>Network Engineering Assistant</b> | UC Berkeley<div class="right"> May 2016 – September 2016</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Provided routine maintenance and upgrades of business system peripheral devices for both hardware and software (terminal servers, meal access readers, vending machine readers, and DSP door access readers). <br />
-                          <i class="material-icons">done</i> Performed upgrades for and oversee network equipment (wires, access points, ports). <br />
-                          <i class="material-icons">done</i> Conducted infrastructure and wireless analysis using knowledge of OSI layers | TCP/IP model.</br />
-                          <i class="material-icons">done</i> Supported cable TV infrastructure, including installing and terminating cables, taps, splitters, amplifiers, and line extenders, including troubleshooting/repairing damaged connections/devices.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons">laptop_mac</i><b>Network Manager</b> | Berkeley Student Cooperative<div class="right"> May 2016 – September 2016</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Provided technical supports and ensured cyber security on personal computers and routers to 1300+ BSC residents <br />
-                          <i class="material-icons">done</i> Managed BSC desktops, printers, internets, and wireless access points of over 13+ Houses and Apartments <br />
-                          <i class="material-icons">done</i> Recruited and trained a team of student IT technicians to troubleshoot and repair basic internet connectivity problems</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="collapsible-header"><i class="material-icons">laptop_mac</i><b>Director Of Web</b> | Morning Sign Out<div class="right"> September 2015 – May 2016</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Recruited and led a team of web developers to design and maintain the club’s website <br />
-                          <i class="material-icons">done</i> Assisted in the development of Morning Sign Out’s Android mobile application on preventative medicine</p>
-                    </div>
-                  </li>
-              </ul>
-          </div>
-          <!--project experiences tab contents-->
-          <div id="project-experiences" class="col s12">
-              <br></br>
-              <ul class="collapsible popout" data-collapsible="accordion">
-                  <li>
-                    <div class="collapsible-header active"><i class="material-icons">work</i><b>Project Manager</b> | DiversaTech | Client: <b>eBay</b><div class="right"> September 2016 – December 2016</div></div>
-                    <div class="collapsible-body">
-                      <p> <i class="material-icons">done</i> Led a team of four senior consultants to conduct technical research on end-user interfaces technologies <br />
-                          <i class="material-icons">done</i> Analyzed strengths and weaknesses of competitors in the online Classifieds markets and conducted market research <br />
-                          <i class="material-icons">done</i> Identified optimal contents to implement at each stage of end user’s journey on eBay’s website and mobile application <br />
-                          <i class="material-icons">done</i> Developed metrics to evaluate different software that will assist in achieving higher user retention rates</p>
-                    </div>
-                  </li>
-              </ul>
-          </div>
-        </div>
       </div>
   </section>
 
