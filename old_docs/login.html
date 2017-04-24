@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="MB" prefix="og: http://ogp.me/ns#">
+<head>
+
+  <!-- <base href="/"> -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+  <!-- Meta Tags for gSuite -->
+  <!--To be implemented -->
+
+  <!-- FB Open Graph Tags -->
+  <!--To be implemented -->
+
+  <!-- Meta Tags for SEO -->
+  <title>DLP Lite</title>
+  <meta name='subject' content='Consulting' />
+  <meta name='description' content="This is the testing front-end for DiversaTech-Symantec project." />
+  <meta name='keywords' content='DiversaTech, DiversaTech berkeley, cal DiversaTech' />
+  <meta name='url' content='http://diversatech.org' />
+  <meta name='reply-to' content='president@diversa.tech' />
+  <meta name='copyright' content='DiversaTech' />
+  <meta name='robots' content='index, follow' />
+
+  <!-- FAVICON -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+  <!--Import Google Icon Font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!--Import Google Font-->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+
+  <!--preloader, change pace.css for different themes-->
+  <!-- <script src="js/pace.js"></script> -->
+  <!-- <link href="css/pace.css" rel="stylesheet" /> -->
+
+  <!--Import materialize css-->
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <!--Import cover css-->
+  <link rel="stylesheet" href="css/cover.css">
+  <!--Import centering css-->
+  <link rel="stylesheet" href="css/centering.css">
+  <!--Import overview.css-->
+  <link rel="stylesheet" href="css/overview.css">
+  <!--Import custom_tab.css-->
+  <link rel="stylesheet" href="css/custom_tab.css">
+  <!--Import font awesome (for icons only)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+
+    main {
+      flex: 1 0 auto;
+    }
+
+    body {
+      background: #fff;
+    }
+
+    .input-field input[type=date]:focus + label,
+    .input-field input[type=text]:focus + label,
+    .input-field input[type=email]:focus + label,
+    .input-field input[type=password]:focus + label {
+      color: #e91e63;
+    }
+
+    .input-field input[type=date]:focus,
+    .input-field input[type=text]:focus,
+    .input-field input[type=email]:focus,
+    .input-field input[type=password]:focus {
+      border-bottom: 2px solid #e91e63;
+      box-shadow: none;
+    }
+  </style>
+
+</head>
+
+<!--navaigation bar-->
+<div id='nav-container'></div>
+
+
+<body>
+    <!--main content-->
+    <!--Login header-->
+    <a id="login" class="anchor"></a>
+    <div class="parallax-container">
+      <div class="parallax">
+        <div class="title-cover valign-wrapper">
+          <div class="text-container valign center">
+            <h3 class="white-text">Login/Sign Up</h3>
+          </div>
+        </div>
+        <img style="width:100%;" src="img/cover2.jpeg">
+      </div>
+    </div>
+    <!--Login contents-->
+    <section id="login-content" class="overview">
+    <center>
+    <div class="container">
+      <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+        <form class="col s12" method="post">
+          <div class='row'>
+            <div class='col s12'>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='input-field col s12'>
+              <input class='validate' type='email' name='email' id='email' />
+              <label for='email'>Enter your email</label>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='input-field col s12'>
+              <input class='validate' type='password' name='password' id='password' />
+              <label for='password'>Enter your password</label>
+            </div>
+            <label style='float: right;'>
+              <a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+            </label>
+          </div>
+
+          <br />
+          <center>
+            <div class='row'>
+              <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect orange darken-1 disabled'>Login</button>
+            </div>
+          </center>
+        </form>
+      </div>
+    </div>
+    <a href="#!">Create account</a>
+  </center>
+
+  <div class="section"></div>
+  <div class="section"></div>
+    </section>
+
+</body>
+
+<!--footer bar-->
+<div id='footer-container'></div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<!--Import Materialize.js-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<!--Import custom.js-->
+<script type="text/javascript" src="js/custom.js"></script>
+<!--Import intro_massage.js-->
+<script type="text/javascript" src="js/intro_massage.js"></script>
