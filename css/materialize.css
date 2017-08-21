@@ -5721,10 +5721,7 @@ button.btn-floating {
 }
 
 .collapsible-header {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: block;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   line-height: 1.5;
